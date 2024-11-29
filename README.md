@@ -1,4 +1,4 @@
-### Google-Cyclistic-2023
+Google-Cyclistic-2023
 # Google_Data_Analytics_Capstone_Cyclistic_2023
 
 Course: [Google Data Analytics Capstone: Complete a Case
