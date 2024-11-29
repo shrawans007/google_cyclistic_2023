@@ -161,14 +161,14 @@ missing needs to be removed.
 
 ![cyclistic_2023_nulls_end_station](https://github.com/user-attachments/assets/48f78fd3-05a3-4ed3-8e9b-bb366ca88f0d)
 
-So, these 929343 rows have both end_station_name and end_station_id
+Again, these 929343 rows have both end_station_name and end_station_id
 missing needs to be removed.
 
 5.  Missing values/nulls related to end_lat and end_lng
 
 ![cyclistic_2023_nulls_end_locations](https://github.com/user-attachments/assets/2e937351-6ef1-4592-98a4-a7e4a5ede3d4)
 
-So, these 6990 rows have both end_lat and end_lng missing needs to be
+Here, these 6990 rows have both end_lat and end_lng missing needs to be
 removed.
 
 6.  As ride_id has no null values, let's use it to check for duplicates.
