@@ -1,1 +1,51 @@
+-- Data Combining.
+
+-- Combining the tripdata of all 12 months of the year 2023.
+
+CREATE TABLE IF NOT EXISTS `lofty-fort-427707-j0.cyclistic_data.2023_combined_data` AS (
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202301_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202302_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202303_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202304_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202305_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202306_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202307_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202308_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202309_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202310_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202311_tripdata`
+  UNION ALL
+  SELECT * 
+  FROM `lofty-fort-427707-j0.cyclistic_data.202312_tripdata`
+);
+
+-- checking no of rows which are 5667717
+
+SELECT COUNT(*)
+FROM `lofty-fort-427707-j0.cyclistic_data.2023_combined_data`;
+
+
+-- End of script
+
 
