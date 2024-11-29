@@ -172,8 +172,10 @@ Here, these 6990 rows have both end_lat and end_lng missing needs to be
 removed.
 
 6.  As ride_id has no null values, let's use it to check for duplicates.
+   
 
 ![cyclistic_2023_ride_id_duplicates](https://github.com/user-attachments/assets/31c3f353-ca96-453b-8d22-253e94ad597e)
+
 
 There are no duplicate rows in the data.
 
