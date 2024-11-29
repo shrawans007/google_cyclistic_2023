@@ -135,12 +135,13 @@ Observations:
 1.  The table below shows the all column names and their data types. The
     ride_id column is our primary key.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_schema.png)
+![cyclistic_2023_schema](https://github.com/user-attachments/assets/aa285e4a-4e54-4558-b5ca-1e148ccc98ae)
 
 2.  The following table shows number of null values in each column.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_nulls.png)
-*Note*: After checking the above results, I found out that the number of
+![cyclistic_2023_nulls](https://github.com/user-attachments/assets/34603cbc-b16f-489c-92d4-d84952253458)
+
+**Note**: After checking the above results, I found out that the number of
 NULLS of columns start_station_name, start_station_id, end_station_name,
 end_station_id, end_lat and end_lng are not matching to the numbers of
 NULLS(328957) of remaining other columns(please refer the image). This
@@ -151,28 +152,28 @@ ending station.
 3.  Missing values/nulls related to start_staion_name and
     start_staion_id.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_nulls_start_station.png)
+![cyclistic_2023_nulls_start_station](https://github.com/user-attachments/assets/4d879618-bb19-4e3e-bda1-b76a62b79833)
 
 So, these 875848 rows have both start_station_name and start_station_id
 missing needs to be removed.
 
 4.  Missing values/nulls related to end_staion_name and end_staion_id.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_nulls_end_station.png)
+![cyclistic_2023_nulls_end_station](https://github.com/user-attachments/assets/48f78fd3-05a3-4ed3-8e9b-bb366ca88f0d)
 
 So, these 929343 rows have both end_station_name and end_station_id
 missing needs to be removed.
 
 5.  Missing values/nulls related to end_lat and end_lng
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_nulls_end_locations.png)
+![cyclistic_2023_nulls_end_locations](https://github.com/user-attachments/assets/2e937351-6ef1-4592-98a4-a7e4a5ede3d4)
 
 So, these 6990 rows have both end_lat and end_lng missing needs to be
 removed.
 
 6.  As ride_id has no null values, let's use it to check for duplicates.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_ride_id_duplicates.png)
+![cyclistic_2023_ride_id_duplicates](https://github.com/user-attachments/assets/31c3f353-ca96-453b-8d22-253e94ad597e)
 
 There are no duplicate rows in the data.
 
@@ -180,7 +181,7 @@ There are no duplicate rows in the data.
 
 8.  There are 3 unique types of bikes(rideable_type) in our data.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclitic_2023_bike_types.png)
+![cyclitic_2023_bike_types](https://github.com/user-attachments/assets/65c46a43-7e1d-42b5-8fc9-a407845d209c)
 
 9.  The started_at and ended_at shows start and end time of the trip in
     YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be
@@ -192,7 +193,7 @@ There are no duplicate rows in the data.
 
 10. member_casual column has 2 uniqued values as member or casual rider.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclitic_2023_rider_types.png)
+![cyclitic_2023_rider_types](https://github.com/user-attachments/assets/9ded1081-d48f-48cc-b9de-5f673e3caa41)
 
 11. Columns that need to be removed are start_station_id and
     end_station_id as they do not add value to analysis of our current
@@ -230,7 +231,7 @@ riders use Cyclistic bikes differently?
 First of all, member and casual riders are compared by the type of bikes
 they are using.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_tableau_01.png)
+![cyclistic_2023_tableau_01](https://github.com/user-attachments/assets/a73691bf-8495-430a-a23d-63cb6d306ac3)
 
 The members make 64.53% of the total while remaining 35.47% constitutes
 casual riders. Each bike type chart shows percentage from the total.
@@ -240,17 +241,18 @@ bikes are used the least by only casual riders.
 Next the number of trips distributed by the months, days of the week and
 hours of the day are examined.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_tableau_02.png)
-*Months*: When it comes to monthly trips, both casual and members
+![cyclistic_2023_tableau_02](https://github.com/user-attachments/assets/e6858a76-8e58-4a99-8531-616678ef7490)
+
+**Months**: When it comes to monthly trips, both casual and members
 exhibit comparable behavior, with more trips in the spring and summer
 and fewer in the winter. The gap between casuals and members is closest
 in the month of July in summer.
 
-*Days of Week*: When the days of the week are compared, it is discovered
+**Days of Week**: When the days of the week are compared, it is discovered
 that casual riders make more journeys on the weekends while members show
 a decline over the weekend in contrast to the other days of the week.
 
-*Hours of the Day*: The members shows 2 peaks throughout the day in
+**Hours of the Day**: The members shows 2 peaks throughout the day in
 terms of number of trips. One is early in the morning at around 6 am to
 8 am and other is in the evening at around 4 pm to 8 pm while number of
 trips for casual riders increase consistently over the day till evening
@@ -265,7 +267,8 @@ spring.
 Ride duration of the trips are compared to find the differences in the
 behavior of casual and member riders.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_tableau_03.png)
+![cyclistic_2023_tableau_03](https://github.com/user-attachments/assets/b1bf9aff-8467-4557-9f50-1087721560bd)
+
 Take note that casual riders tend to cycle longer than members do on
 average. The length of the average journey for members doesn't change
 throughout the year, week, or day. However, there are variations in how
@@ -284,14 +287,16 @@ locations of starting and ending stations can be analysed. Stations with
 the most trips are considered using filters to draw out the following
 conclusions.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_tableau_04.png)
+![cyclistic_2023_tableau_04](https://github.com/user-attachments/assets/0e4def75-25ee-4278-8da1-a5ecfa2e2e02)
+
 Casual riders have frequently started their trips from the stations in
 vicinity of museums, parks, beach, harbor points and aquarium while
 members have begun their journeys from stations close to universities,
 residential areas, restaurants, hospitals, grocery stores, theatre,
 schools, banks, factories, train stations, parks and plazas.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_tableau_05.png)
+![cyclistic_2023_tableau_05](https://github.com/user-attachments/assets/7088cb8d-3cdb-49cf-b7c1-c4ea7e3fd357)
+
 Similar trend can be observed in ending station locations. Casual riders
 end their journay near parks, museums and other recreational sites
 whereas members end their trips close to universities, residential and
@@ -299,7 +304,7 @@ commmercial areas. So this proves that casual riders use bikes for
 leisure activities while members extensively rely on them for daily
 commute.
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_2023_summary.png)
+![cyclistic_2023_summary](https://github.com/user-attachments/assets/427d6247-8e1d-4184-af45-82c1058a40aa)
 
 ## Act 
 After identifying the differences between casual and member
