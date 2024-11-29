@@ -17,7 +17,10 @@ knitr::opts_chunk$set(echo = TRUE)
 Course: [Google Data Analytics Capstone: Complete a Case
 Study](https://www.coursera.org/learn/google-data-analytics-capstone/)
 
-![](https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_case_study.png)
+!(https://431702c6caf44d879636c14111d98f01.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FCourse+7%2Fcyclistic_case_study.png)
+
+![cyclistic_case_study](https://github.com/user-attachments/assets/b77dbfdb-2daa-4ae9-9183-7fd7b9b8c798)
+
 
 ## Introduction
 
@@ -318,7 +321,7 @@ After identifying the differences between casual and member
 riders, marketing strategies to target casual riders can be developed to
 persuade them to become members.
 
-*Recommendations*: Marketing campaigns might be conducted in spring and
+**Recommendations**: Marketing campaigns might be conducted in spring and
 summer at tourist/recreational locations popular among casual riders.
 Casual riders are most active on weekends and during the summer and
 spring, thus they may be offered seasonal or weekend-only memberships.
