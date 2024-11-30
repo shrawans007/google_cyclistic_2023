@@ -306,6 +306,7 @@ commmercial areas.** So this proves that casual riders use bikes for
 leisure activities while members extensively rely on them for daily
 commute.
 
+## Summary
 ![cyclistic_2023_summary](https://github.com/user-attachments/assets/427d6247-8e1d-4184-af45-82c1058a40aa)
 
 ## Act 
