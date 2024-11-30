@@ -325,3 +325,4 @@ spring, thus they may be offered seasonal or weekend-only memberships.
 discounts for longer rides may incentivize casual riders and entice
 members to ride for longer periods of time.
 
+(Reference/Inspired by: https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study)
