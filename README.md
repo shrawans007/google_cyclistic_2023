@@ -1,4 +1,3 @@
-Google-Cyclistic-2023
 # Google Data Analytics Capstone: Casestudy Cyclistic 2023 (SQL and Tableau)
 
 Course: [Google Data Analytics Capstone: Complete a Case
