@@ -1,5 +1,5 @@
 Google-Cyclistic-2023
-# Google_Data_Analytics_Capstone: Casestudy_Cyclistic_2023
+# Google Data Analytics Capstone: Casestudy Cyclistic 2023
 
 Course: [Google Data Analytics Capstone: Complete a Case
 Study](https://www.coursera.org/learn/google-data-analytics-capstone/)
